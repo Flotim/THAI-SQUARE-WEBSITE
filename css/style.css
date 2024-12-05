@@ -1,10 +1,12 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 @font-face {
     font-family: 'Gyst';
-    src: url('fonts/fonnts.com-Gyst_Variable_Light_Italic.otf') format('truetype');
+    src: url('/fonts/fonnts.com-Gyst_Variable_Light_Italic.otf') format('truetype');
 }
 
 
@@ -51,7 +53,7 @@ nav{
     gap: 2rem;
     transition: top 0.5s ease-in-out, position 0.5s ease-in;
     z-index: 1000;
-    background: linear-gradient(to top,transparent 10% ,#60591B );
+    background: linear-gradient(to top,transparent 20% ,#60591B);
     width: 100%;
     padding-right: 8vw;
     
@@ -132,7 +134,8 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    background-image: url(Texture/ombre\ palmier\ texture.png);
+    background: linear-gradient(to top, rgba(227, 218, 199, 1), rgba(227, 218, 199, 0)),
+    url(/Texture/ombre\ palmier\ texture.png);
     background-size: cover;
     font-family:'Poppins', sans-serif;
     position:relative;
@@ -187,6 +190,7 @@ header h2{
 
 
 .textelocal{
+    padding-left: 15px;
     flex:1;
     display: flex;
     flex-direction: column;
@@ -207,12 +211,14 @@ header h2{
     font-weight: 500;
     font-size: 10vh;
     color:#60591B;
+    text-align: center;
 }
 
 .adresse{
     font-family: "Montserrat Alternates", sans-serif;
     color: #453F1A;
     font-weight: 400;
+    text-align: center;
     font-style: normal;
     display: flex;
     flex-direction: column;
@@ -233,8 +239,7 @@ header h2{
 
 .imgfacade{
     flex: 1;
-    height: 100%; /* Assure-toi que sa hauteur est définie */
-    width: 100%;  /* Si nécessaire */
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -244,8 +249,9 @@ header h2{
 
 .imgfacade img{
     width: 70%;
-    height: 50%;
+    height: auto;
     border-radius: 3%;
+    padding-bottom: 2%;
 }
 
 
@@ -432,7 +438,7 @@ footer a{
 
 }
 
-@media (max-width:600px){
+@media (max-width:660px){
 
     .container{
         overflow-x: hidden;
@@ -466,6 +472,9 @@ footer a{
         color: #000;
     }
 
+    .Thaisquare{
+        text-align: center;
+    }
     #section1{
         overflow-x: hidden;
         height: 100vh;
