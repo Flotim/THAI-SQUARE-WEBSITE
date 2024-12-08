@@ -73,9 +73,7 @@ html {
 }
 
 .logo-divider{
-    content:"";
     width: 200px;
-    height: 4px;
     stroke-width: 1px;
     stroke: #60591B;
 
