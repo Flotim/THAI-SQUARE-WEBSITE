@@ -170,11 +170,10 @@ html {
     justify-content: center;
     align-items: center;
     gap: 45px;
-    align-self: stretch;
 }
 
 .social-media-icon{
-    width: 90px;
+    width: 40px;
     height: 40px;
     fill: #60591B;
 }
