@@ -6,7 +6,7 @@
     <meta name="description" content="Thaï Square - Restaurant thaïlandais et cambodgien proposant des plats de qualité. Venez déguster nos spécialités sur place ou à emporter.">
     <meta name="keywords" content="restaurant thaïlandais, cuisine asiatique, Thai Square, Lescure-d'Albigeois, plats thaïlandais, bobun, pad thaï">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./assets/palmier vert.png" type="">
     <link rel="preload" href="./assets/ombre_palmier.png" as="image">
     <style>
@@ -25,7 +25,7 @@
 
             <div class="container-tools">
                 <img class="logo-divider" src="./assets/divider.svg" alt="">
-                <button class="tools-button tools-button-reserver">Réserver une table</button>
+                <button class="tools-button tools-button-reserver"><a href="tel:+33 05 63 55 40 19">Réserver une table</a></button>
                 <h3 class="tools-adress">
                     <span class="adress-span1">
                     IMPASSE DE SOLVIEL, 81380 à
@@ -34,7 +34,7 @@
                     Lescure-d'Albigeois
                     </span>
                 </h3>
-                <button class="tools-button tools-button-carte">Voir la carte <img class="reservation-icon" src="./assets/utensils-solid.svg" /></button>
+                <button class="tools-button tools-button-carte"><a href="">Voir la carte </a><img class="reservation-icon" src="./assets/utensils-solid.svg" /></button>
                 <div class="tools-social-media">
                     <a href="tel:+33 05 63 55 40 19">
                         <img class="social-media-icon social-media-phone" src="./assets/phone-solid.svg" />
@@ -51,79 +51,62 @@
 
 
     <section id="section1">
-            <div class="textelocal">
-                <div class="titreplat">
-                    <H1 class="parallax-text1">Thaï Square </H1>
-                    <H1 class="parallax-text1">restau</H1>
+        <div class="main-wrapper">
+            <div class="pictures">
+                <div class="img-container img1">
+                    <img class="img_pictures" src="./assets/img_jardin.JPG" alt="Image jardin">
                 </div>
-                <div class="adresse">
-                    <p class="parallax-text1">Retrouvez-nous au : </p>
-                    <h3 class="parallax-text1">IMPASSE DE SOLVIEL, 81380 à Lescure-d'Albigeois</h3>
+                <div class="img-container img2">
+                    <img class="img_pictures" src="./assets/img_bouteille_ext.JPG" alt="Image bouteille">
                 </div>
-                <div class="description">
-                    <p class="parallax-text1">Notre restaurant vous propose des plats <br> thaïlandais et cambodgiens de qualités.</p>
+                <div class="img-container img3">
+                    <img class="img_pictures" src="./assets/IMG_1906.JPG" alt="Image 1906">
                 </div>
             </div>
-            <div class="imgfacade">
-                <img src="images/la-facade.jpg" alt="">
-            </div>
-    </section>
-
-
-    
-    
-
-
-    
-    <section class="container" id="section2">
-        <div class="menu">
-            <div class="imagemenu">
-                <img src="images/imagemenuthaisquare.jpeg" alt="">
-            </div>
-            <div class="textmenu">
-                <div class="envie">
-                    <h1>Vous êtes plutôt poisson ou viande? Nouilles ou riz?</h1>
-                    <h2>N'attendez plus et venez consulter notre carte en ligne juste ici </h2>
-                </div> 
-            </div>
-            <div class="fondvert" >
-                <div class="boutoncarte">
-                    <a href="/menu.html"> <i class='bx bx-restaurant'></i> Menu Thaï Square <i class='bx bx-restaurant'></i> </a>
+            <div class="text">
+                <img class="palmier_pictures" src="./assets/palmier vert.PNG" alt="">
+                <div class="text_description">
+                    <h3>Nos plats sont faits <span class="span_maison">maison</span></h3>
+                    <p>Venez déguster nos spécialités <span class="span_thcb">thaïlandaises</span> <br> et <span class="span_thcb" >cambodgiennes</span></p>
                 </div>
-            </div> 
+                <img class="palmier_pictures" src="./assets/palmier vert.PNG" alt="">
+            </div>
         </div>
     </section>
 
 
 
-    <section class="container">
-        <div class="restaurant">
-            <div class="imageinterieur">
-                <img src="images/panda-panda-restaurant.jpg" alt="">
+
+    <section id="section2" class="container">
+            <div class="main-content">
+                <div class="map">
+                    <h3 class="map_text">Nous retrouver : </h3>
+                    <iframe  id="adresse"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2872.1742120544754!2d2.1549338761928327!3d43.955761271089465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ade833e16daa23%3A0x72b261da691bbe89!2sTHA%C3%8F%20SQUARE%20RESTAU!5e0!3m2!1sfr!2sfr!4v1703264359477!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="distributeur">
+                    <div class="distributeur_text">
+                        <h3>Sans oublier notre distributeur : </h3>
+                        <p>(disponible 24/24)</p>
+                    </div>
+                    <img class="distributeur_img" src="./assets/distributeur_exemple.jpg" alt="">
+                </div>
             </div>
-            
-        </div>
     </section>
 
-
-    
-    <footer >
-        <div class="textfooter"  >
+    <footer>
+        <img class="footer_logo"  src="./assets/logo horizontal_vert.png" alt="">
+        <div class="footer_social-media">
+            <a href="tel:+33 05 63 55 40 19"><img class="footer_social-media-icon footer_social-media-phone" src="./assets/phone-solid.svg" />
+            </a>
+            <a href="https://www.facebook.com/thaisquarealbi/"><img class="footer_social-media-icon social-media-facebook" src="./assets/square-facebook-brands-solid.svg" />
+            </a>
+            <a href="https://www.instagram.com/explore/locations/1412406309058947/thai-square-restau/"><img class="footer_social-media-icon social-media-instagram" src="./assets/instagram-brands-solid (1).svg" />
+            </a>
+        </div>
+        <div class="footer_text">
             <p class="nom" >&copy; 2023 Thaï Square restau </p>
         </div>
-        <div class="facebook">
-            <a href="https://www.facebook.com/people/Tha%C3%AF-Square-Restau/100063504133052/"
-            target="_blank"><i class='bx bxl-facebook-circle' ></i>
-            </a>
-            <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
-            <a href="tel:+33 05 63 55 40 19"><i class='bx bxs-phone'></i><span class="phone-number">05 63 55 40 19</span></a>
-        </div>
     </footer>
-
-
-
-
-
 
     
     <script src="script.js"></script>
