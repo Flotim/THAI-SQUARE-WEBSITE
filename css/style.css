@@ -23,16 +23,6 @@ html {
     box-sizing: border-box;
 }
 
-
-.container{
-    overflow-x: hidden;
-    margin: auto;
-    padding: 5rem 2rem;
-    background-color: gb(253, 244, 244);
-    
-}
-
-
 .hero{
     display: flex;
     width: 100%;
@@ -181,8 +171,6 @@ html {
 }
 
 
-
-
 a{
     text-decoration: none;
 }
@@ -212,35 +200,6 @@ header{
 
 
 
-
-.textelocal{
-    padding-left: 15px;
-    flex:1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-.titreplat{
-    letter-spacing: -2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.titreplat H1{
-    font-weight: 500;
-    font-size: 10vh;
-    color:#60591B;
-    text-align: center;
-}
-
-
-
-
 .description{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
@@ -251,146 +210,13 @@ header{
     align-items: center;
 }
 
-.imgfacade{
-    flex: 1;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.imgfacade img{
-    width: 70%;
-    height: auto;
-    border-radius: 3%;
-    padding-bottom: 2%;
-}
 
 
 
-
-.plats{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-}
-
-
-.exempleimages{
-    font-family:'poppins';
-    text-align: center;
-    border-radius: 5px;
-
-}
-
-
-
-.exempleimages img{
-    transition: all 0.7s ease;
-
-}
-
-.exempleimages img:hover{
-    transform: translateY(-15px) scale(1.0);
-
-}
-
-.exempleimages a{
-    color: #ffffff;
-    font-size: 15px;
-    padding-top: 5px;
-    
-}
-
-
-.menu{
-    width: 100%;
-    display: flex;
-    padding-top: 50px;
-    gap: 55px;
-    overflow-y: hidden;
-    
-}
-
-.textmenu{
-    display: flex;
-    font-size: 12px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    width: 25%;
-}
-
-.imagemenu{
-    width: 50%;
-    
-}
-
-
-.fondvert{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-.envie{
-    font-family: "Montserrat Alternates", sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-}
-
-.envie h1{
-    font-weight: 300;
-    font-size: 20px;
-}
-
-.envie h2{
-    font-weight: 300;
-}
-
-
-.boutoncarte {
-    transition: all 0.7s ease;
-
-}   
-
-
-
-.boutoncarte a{
-    text-decoration: none;
-    color:#E3DAC7;
-    word-spacing: 1px;
-}
-
-
-.boutoncarte a:hover{
-    text-decoration: none;
-    color: #230404;
-}
-
-
-.boutoncarte:hover{
-    transform: translateY(-9px) scale(1.1);
-}
 
 
 
 @media (max-width:660px){
-
-    .container{
-        overflow-x: hidden;
-    }
-
 
     .tools-button{
         font-size: 1rem;
@@ -398,117 +224,5 @@ header{
         height: 60px;
         gap: 5px;
     }
-
-    .links{
-        color: #000;
-    }
-
-    .Thaisquare{
-        text-align: center;
-    }
-
-
-
-    .textelocal{
-        padding-top: 8vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .titreplat H1{
-        font-size: 8vh;
-    }
-
-    .adresse{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:25px;
-        text-align: center;
-    }
-
-    .adresse h3{
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-
-    .imagemenu{
-        display: none;
-    }
-    
-    .menu{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .textmenu{
-        font-size: 10px;
-        width: 100%;
-        height: 50%;
-    }
-
-    .fondvert{
-        width: 100%;
-        height: 50%;
-        justify-content: center;
-        text-align: center;
-
-    }
-
-    .boutoncarte{
-        width: 100%;
-        height: 100%;
-    }
-
-    .telephone i{
-        font-size: 25px;
-    }
-    
-    .phone-number{
-        display: none;
-    }
-
-
-
-
-
-}
-
-@media (max-width:361px){
-
-    .container{
-        overflow-x: hidden;
-    }
-    
-    .nav-links{
-        display: table-column;
-    }
-    header{
-        grid-template-columns: repeat(1, 1fr);
-    
-    }
-
-    header H1{
-        font-size: 70px;
-    }
-
-    header .image{
-        grid-area: 1/1/2/2;
-    }
-
-
-    .plats{
-        width: 100%;
-    }
-
-
 
 }

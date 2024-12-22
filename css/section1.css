@@ -1,14 +1,14 @@
-#section1{
+#section1 {
     overflow: hidden;
-    width:100vw;
+    width: 100vw;
     height: fit-content;
 }
 
-.main-wrapper{
+.main-wrapper {
     display: flex;
-    width:100%;
+    width: 100%;
     height: fit-content;
-    padding: 15vh 0px;
+    padding: 15vh 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     flex-shrink: 0;
 }
 
-.pictures{
+.pictures {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,7 +26,7 @@
     width: 90%;
 }
 
-.img-container{
+.img-container {
     border-radius: 15px;
     overflow: hidden;
     width: 280px;
@@ -38,40 +38,35 @@
     border: 1px solid;    
     border-color: #60591B;
     box-shadow: 7px 4px 9px 0px rgba(0, 0, 0, 0.25);
-
 }
 
-.img_pictures{
+.img_pictures {
     width: 100%; /* L'image remplit complètement le conteneur */
     height: 100%;
     object-fit: cover;
     object-position: 70%;
-    
-
 }
 
-
-.text{
+.text {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    height: 130px;
+    height: 13rem;
     width: 90%;
-
 }
 
-.text_description{
+.text_description {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    font-family: "Montserrat Alternates",sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     text-align: center;
     color: #60591B;
 }
 
-.span_maison{
+.span_maison {
     color: #60591B;
     font-family: "Montserrat Alternates";
     font-size: 1.25rem;
@@ -80,7 +75,7 @@
     line-height: normal;
 }
 
-.span_thcb{
+.span_thcb {
     color: #60591B;
     font-family: "Montserrat Alternates";
     font-style: normal;
@@ -88,27 +83,24 @@
     line-height: normal;
 }
 
-.palmier_pictures{
-    width: 348px;
-    height: 130px;
+.palmier_pictures {
+    width: 34.8rem;
+    height: 13rem;
     flex-shrink: 0;
     object-fit: cover;
-
 }
 
-
-@media (max-width:660px){
-
-    #section1{
+@media (max-width: 660px) {
+    #section1 {
         height: fit-content;
     }
 
-    .pictures{
+    .pictures {
         display: flex;
         flex-direction: column;
     }
 
-    .img-container{
+    .img-container {
         border-radius: 15px;
         overflow: hidden;
         width: 280px;
@@ -120,30 +112,26 @@
         border: 1px solid;    
         border-color: #60591B;
         box-shadow: 7px 4px 9px 0px rgba(0, 0, 0, 0.25);
-    
     }
-    
 
-    .img1{
+    .img1 {
         display: none;
     }
 
-    .text{
+    .text {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
-        height: 130px;
+        height: 13rem;
         width: 90%;
         gap: 2vh;
-    
-    }
-    .palmier_pictures{
-        width: 150px;
-        height: 50px;
-        flex-shrink: 0;
-        object-fit: cover;
-    
     }
 
+    .palmier_pictures {
+        width: 15rem;
+        height: 5rem;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
 }

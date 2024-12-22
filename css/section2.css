@@ -179,6 +179,8 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 2vh;
+        padding: 3vh;
         
     }
 
@@ -186,5 +188,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 1vh;
     }
 }
