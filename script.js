@@ -1,3 +1,11 @@
+window.addEventListener('load', function() {
+    const header = document.querySelector('header');
+    header.classList.add('fadein');
+});
+
+
+
+
 // Sélectionner toutes les sections
 const sections = document.querySelectorAll("section");
 

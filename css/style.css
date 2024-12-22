@@ -195,10 +195,13 @@ header{
     align-items: center;
     justify-content: space-between;
     overflow-y: hidden; 
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
-
-
+.fadein{
+    opacity: 1; /* L'image devient visible */
+}
 
 .description{
     font-family: "Montserrat Alternates", sans-serif;
