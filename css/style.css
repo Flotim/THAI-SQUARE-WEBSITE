@@ -199,7 +199,7 @@ header{
     height: 100vh;
     width: 100%;
     background: linear-gradient(to top, rgba(227, 218, 199, 1), rgba(227, 218, 199, 0)),
-    url(../assets/ombre_palmier.png);
+    url(../assets/ombre_palmier_low.JPG);
     background-size: cover;
     position:relative;
     display: flex;

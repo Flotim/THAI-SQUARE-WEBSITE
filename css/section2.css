@@ -105,7 +105,7 @@ footer{
 .footer_social-media{
     display: flex;
     width: 150px;
-    gap: 35px;
+    gap: 5vw;
 }
 
 .footer_social-media-icon{
@@ -173,5 +173,19 @@ footer{
 
     .distributeur_img{
         width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .footer_social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
     }
 }
