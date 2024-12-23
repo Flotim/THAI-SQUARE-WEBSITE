@@ -50,6 +50,8 @@
 
 .tools-button{
     transition: all 0.8s ease; /* Ajoute une transition fluide */
+    color: #E3DAC7;
+
 
 
 }
@@ -131,9 +133,6 @@
 
 }
 
-.tools-button-carte a{
-    color: #E3DAC7;
-}
 
 .reservation-icon{
     width: 30px;
