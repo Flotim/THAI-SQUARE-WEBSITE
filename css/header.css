@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 10px;
     flex: 1 0 0;
     max-width: 90%;
 }
@@ -44,37 +44,33 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 63px;
+    gap: 30px;
     align-self: stretch;
 }
 
 .tools-button{
     transition: all 0.8s ease; /* Ajoute une transition fluide */
-    color: #E3DAC7;
-
-
-
+    color: #60591be3;
 }
+
+
 .tools-button:hover{
     transform: translateY(-4px);
-    background-color: #60591be3;
 }
 
 .tools-button-reserver{
     display: flex;
-    width: 280px;
+    width: 200px;
     height: 70px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 10px;
-    background: #60591B;
-    box-shadow: 0px 8px 9px 0px rgba(96, 89, 27, 0.90);
-
+    border-radius: 40px;
+    border: 1px solid #60591B;
     font-family: "Montserrat Alternates",sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
 
 }
@@ -84,33 +80,23 @@
     color: #E3DAC7;
 }
 
-.tools-adress{
+.tools-button-adress{
     display: flex;
-    height: 1px;
-    flex-direction: column;
+    width: 280px;
+    height: 70px;
     justify-content: center;
-    flex-shrink: 0;
-    align-self: stretch;
-
-    color: #60591B;
-    text-align: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px solid #60591B;    
     font-family: "Montserrat Alternates",sans-serif;
-    font-size: 1.625rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
 }
 
-
-.adress-span2{
-    color: #60591B;
-    font-family: "Montserrat Alternates",sans-serif;
-    font-size: 1.625rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
 
 .tools-button-carte{
     display: flex;
@@ -119,18 +105,13 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-
-    border-radius: 10px;
-    background: #60591B;
-    box-shadow: 0px 8px 9px 0px rgba(96, 89, 27, 0.90);
-
+    border-radius: 40px;
+    border: 1px solid #60591B;    
     font-family: "Montserrat Alternates",sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
-
-
 }
 
 
@@ -160,9 +141,7 @@
     fill: #c6c4b59b;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 body{
     font-family: 'Montserrat+Alternates', sans-serif;

@@ -12,6 +12,9 @@ html {
     -webkit-user-drag: none;
 }
 
+body{
+font-family: "Montserrat Alternates", sans-serif;
+}
 
 .visible{
     opacity: 1;
@@ -23,5 +26,13 @@ section{
     opacity: 0;
     transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
     transform: translateY(100px);
+}
+
+p{
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
 }
 
