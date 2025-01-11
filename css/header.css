@@ -61,7 +61,7 @@
 
 .tools-button-reserver{
     display: flex;
-    width: 200px;
+    width: 500px;
     height: 70px;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@
 
 .tools-button-adress{
     display: flex;
-    width: 280px;
+    width: 500px;
     height: 70px;
     justify-content: center;
     align-items: center;
@@ -101,7 +101,7 @@
 
 .tools-button-carte{
     display: flex;
-    width: 280px;
+    width: 500px;
     height: 70px;
     justify-content: center;
     align-items: center;
